@@ -3,10 +3,10 @@
 }
 
 body{
+  /* background-image:url(./image/salameche\ pokeme.jpeg);
+  background-size: cover; */
+    background: beige
   /* color:black;
-  background-color:white;
-  background-image:url(./image/salameche\ pokeme.jpeg);
-  background-repeat:no-repeat; */
 /* background: white url(./image/salameche\ pokeme.jpeg) no-repeat right bottom; */
 
 }
@@ -14,10 +14,15 @@ body{
 .listPokemon{
   display: flex;
   flex-flow: wrap;
+  justify-content: center;
 }
 
 .pokemon{
 width:20vh;
+}
+.positionEnd{
+display: flex;
+justify-content: flex-end;
 }
 
 .ecartCenter{
@@ -28,6 +33,12 @@ width:20vh;
 .ecartSpace{
     display: flex;
     justify-content: space-between;
+}
+
+.postPosition{
+  display: flex;
+  justify-content: center;
+  position: relative;
 }
 
 .timerAndpokemonfound{
@@ -54,4 +65,26 @@ text-align: center;
 
 .pseudo{
   border: solid 4px black;
+  border-radius: 30px;
+  position: absolute;
+  height: 100%;
+  right: 0px;
+}
+
+.pseudoTag{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.buttonSubmit{
+      height: 1%;
+      width: 35%;
+}
+
+.inpute{
+display: flex;
+margin-top: 5%;
+flex-direction: column;
+align-items: center;
+  width: 100%;
 }
